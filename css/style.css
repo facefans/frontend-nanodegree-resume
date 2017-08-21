@@ -26,7 +26,7 @@ h6 {
 
 h1 {
   font-size: 40px;
-  color: #f5a623;
+  color: #000000;
   line-height: 48px;
   display: inline;
 }
@@ -34,7 +34,7 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999;
+  color: #3a3733;
   line-height: 29px;
   padding: 10px;
 }
@@ -88,33 +88,36 @@ p {
 a {
   color: #1199c3;
   text-decoration: none;
+  font-weight: bold;
   margin-top: 10px;
   display: block;
 }
 
 .welcome-message {
   font-style: italic;
+  font-weight: bold;
   font-size: 18px;
-  color: #f3f3f3;
+  color: #f1a20a;
   line-height: 28px;
 }
 
 #skills-h3 {
-  color: #f5ae23;
+  color: #2b2722;
   display: none;
 }
 
 .orange {
-  background-color: #f5ae23;
+  background-color: #f67d12;
 }
 
 .orange-text {
-  color: #f5ae23;
+  font-weight: normal;
+  color: #000000;
 }
 
 .white-text {
   font-weight: bold;
-  color: #fff;
+  color: #1a38a7;
 }
 
 .gray {
@@ -124,12 +127,12 @@ a {
 }
 
 .dark-gray {
-  background-color: #4a4a4a;
+  background-color: #f6c812;
 }
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: #ffffff;
 }
 
 .flex-box {
@@ -219,3 +222,4 @@ span {
     display: block;
   }
 }
+
